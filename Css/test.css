@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.logo .trait {
+    height: 2px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.menu .nourriture{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu .nourriture p {
+    white-space: nowrap;
+}
+
+.menu .nourriture div {
+    height: 2px;
+    background-color: blue;
+    flex: 1;
+    margin: 0 10px;
+}
